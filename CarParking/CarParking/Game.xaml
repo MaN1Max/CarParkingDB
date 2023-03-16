@@ -1,0 +1,36 @@
+﻿<Window x:Class="CarParking.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarParking"
+        mc:Ignorable="d"
+        Title="BreakOut" Height="510" Width="460" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="Black" Icon="BreakOut64x.ico">
+    <Canvas x:Name="GameFrame" Focusable="True" KeyDown="keyIsDown" KeyUp="keyIsUp" >
+        <Rectangle x:Name="Platform" Tag ="Platform" Fill="White" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="90" Canvas.Left="180" Canvas.Top="439"/>
+        <Rectangle x:Name="Ball" Fill="#FF3DC100" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Canvas.Left="215" Canvas.Top="399"/>
+        <Rectangle x:Name="Block1" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="17" Canvas.Top="60"/>
+        <Rectangle x:Name="Block2" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="77" Canvas.Top="60"/>
+        <Rectangle x:Name="Block3" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="137" Canvas.Top="60"/>
+        <Rectangle x:Name="Block4" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="197" Canvas.Top="60"/>
+        <Rectangle x:Name="Block5" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="257" Canvas.Top="60"/>
+        <Rectangle x:Name="Block6" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="317" Canvas.Top="60"/>
+        <Rectangle x:Name="Block7" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="377" Canvas.Top="60"/>
+        <Rectangle x:Name="Block8" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="17" Canvas.Top="100"/>
+        <Rectangle x:Name="Block9" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="77" Canvas.Top="100"/>
+        <Rectangle x:Name="Block10" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="137" Canvas.Top="100"/>
+        <Rectangle x:Name="Block11" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="197" Canvas.Top="100"/>
+        <Rectangle x:Name="Block12" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="257" Canvas.Top="100"/>
+        <Rectangle x:Name="Block13" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="317" Canvas.Top="100"/>
+        <Rectangle x:Name="Block14" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="377" Canvas.Top="100"/>
+        <Rectangle x:Name="Block15" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="17" Canvas.Top="140"/>
+        <Rectangle x:Name="Block16" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="77" Canvas.Top="140"/>
+        <Rectangle x:Name="Block17" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="137" Canvas.Top="140"/>
+        <Rectangle x:Name="Block18" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="197" Canvas.Top="140"/>
+        <Rectangle x:Name="Block19" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="257" Canvas.Top="140"/>
+        <Rectangle x:Name="Block20" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="317" Canvas.Top="140"/>
+        <Rectangle x:Name="Block21" Tag ="Block" Fill="White" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="50" Canvas.Left="377" Canvas.Top="140"/>
+        <Label x:Name="Score" Content="Score:" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Franklin Gothic Demi" Foreground="White" Height="51" Width="416" FontSize="16" Canvas.Left="11" Canvas.Top="7"/>
+
+    </Canvas>
+</Window>
